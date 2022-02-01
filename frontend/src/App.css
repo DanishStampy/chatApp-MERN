@@ -6,4 +6,17 @@
   background-image: url('./background.png');
   background-size: cover;
   background-position: center;
+  font-weight: 400;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

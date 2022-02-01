@@ -60,6 +60,7 @@ const Login = () => {
       });
 
       localStorage.setItem("userInfo", JSON.stringify(data));
+      console.log(localStorage)
       setLoading(false);
       history.push("/chats");
 
