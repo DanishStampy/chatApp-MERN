@@ -8,6 +8,7 @@ const HomePage = () => {
   const history = useHistory();
 
   useEffect(() => {
+    // If user already log in
     const user = JSON.parse(localStorage.getItem("userInfo"));
 
     if (user) {
